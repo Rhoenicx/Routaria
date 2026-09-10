@@ -1,7 +1,6 @@
 using Microsoft.Xna.Framework;
 using Routaria.Systems.Agents;
 using Routaria.Systems.Snapshots;
-using Terraria.ID;
 
 namespace Routaria.Systems.Nodes;
 

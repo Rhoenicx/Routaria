@@ -18,7 +18,7 @@ public class Snapshotter : ModItem
     {
         if (player.whoAmI == Main.myPlayer)
         {
-            ModContent.GetInstance<GroundAgent>().RequestPath(
+            ModContent.GetInstance<ExampleGroundAgent>().RequestPath(
                 player.Center.ToTileCoordinates(),
                 2,
                 () => { Main.NewText("completed");});

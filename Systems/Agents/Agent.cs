@@ -2,12 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
-using Routaria.Systems.Agents;
 using Routaria.Systems.Chunks;
 using Routaria.Systems.Nodes;
 using Routaria.Systems.Snapshots;
 using Routaria.UI;
-using Terraria;
 using Terraria.ModLoader;
 
 namespace Routaria.Systems.Agents;

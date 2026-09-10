@@ -1,11 +1,10 @@
-using Routaria.Systems.Agents;
 using Routaria.Systems.Nodes;
 using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace Routaria.Systems.Agents;
 
-public class GroundAgent : Agent
+public class ExampleGroundAgent : Agent
 {
     public override void SetStaticDefaults()
     {
@@ -14,7 +13,7 @@ public class GroundAgent : Agent
         Height = 3;
         OpenDoors = true;
         
-        // Nodes that the agent can use. TODO: remove fly from ground agent.
+        // Nodes that the agent can use. TODO: remove fly from this ground agent.
         Nodes.Add(ModContent.GetInstance<WalkNode>());
         Nodes.Add(ModContent.GetInstance<FlyNode>());
         

@@ -1,7 +1,6 @@
 using Microsoft.Xna.Framework;
 using Routaria.Systems.Agents;
 using Routaria.Systems.Snapshots;
-using Terraria;
 
 namespace Routaria.Systems.Nodes;
 
@@ -61,7 +60,7 @@ public class FlyNode : Node
                 freeColumns++;
                 
                 // When there are enough columns free beside each other
-                // to fit the agent's hitbox, consider this a walkable node
+                // to fit the agent's hitbox, consider this a flyable node
                 if (freeColumns >= agent.Width)
                 {
                     return true;
